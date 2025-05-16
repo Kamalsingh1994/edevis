@@ -161,6 +161,9 @@ doc_events = {
 	},
     "Sales Invoice": {
         "validate": "edevis.custom_scripts.custom_python.sales_invoice.set_serial_no_from_delivery_note"
+    },
+    "Supplier": {
+        "after_insert": "edevis.custom_scripts.custom_python.supplier.after_insert"
     }
 
 }
