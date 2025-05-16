@@ -33,9 +33,9 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
-  "modified": "2025-05-09 10:54:55.289760",
+  "modified": "2025-05-14 12:51:22.762137",
   "name": "75oe3gbeco",
-  "source_text": "supplier customer ref",
+  "source_text": "Supplier Customer Ref",
   "translated_text": "Kundennummer beim Lieferanten"
  },
  {
@@ -6251,5 +6251,18 @@
   "name": "14bq63upsv",
   "source_text": "Country of Origin",
   "translated_text": "Ursprungsland"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-05-14 16:31:11.802152",
+  "name": "86674ggpmv",
+  "source_text": "Suppl. Customer Ref.",
+  "translated_text": "Lief.-Kunden Nr."
  }
 ]
