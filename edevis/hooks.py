@@ -36,6 +36,7 @@ app_include_css = "/assets/edevis/css/small-fonts.css"
 # include js in doctype views
 doctype_js = {
     "Customer" : "public/js/customer.js",
+    "Supplier" : "public/js/supplier.js",
     "Lead" : "public/js/lead.js",
     "Opportunity": "public/js/opportunity.js",
     "Sales Order": "public/js/sales_order.js",
@@ -160,6 +161,9 @@ doc_events = {
 	},
     "Sales Invoice": {
         "validate": "edevis.custom_scripts.custom_python.sales_invoice.set_serial_no_from_delivery_note"
+    },
+    "Supplier": {
+        "after_insert": "edevis.custom_scripts.custom_python.supplier.after_insert"
     }
 
 }
