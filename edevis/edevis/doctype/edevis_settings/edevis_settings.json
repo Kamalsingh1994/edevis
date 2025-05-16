@@ -8,7 +8,11 @@
   "customer_settings_section",
   "auto_create_customer_accounts",
   "column_break_loxh",
-  "debitors_parent_account"
+  "debitors_parent_account",
+  "section_break_wbyy",
+  "auto_create_supplier_credit_accounts",
+  "column_break_vmec",
+  "creditors_parent_account"
  ],
  "fields": [
   {
@@ -35,12 +39,36 @@
   {
    "fieldname": "column_break_loxh",
    "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "description": "by enabling this, supplier credit accounts will be automatically created and linked to the supplier on creation of a supplier. Accounts will be named as supplier_no - supplier_name.",
+   "fieldname": "auto_create_supplier_credit_accounts",
+   "fieldtype": "Check",
+   "label": "Auto Create Supplier Credit Accounts"
+  },
+  {
+   "depends_on": "eval: doc.auto_create_supplier_credit_accounts",
+   "description": "This will be the account under which all the auto created creditors accounts (on creation of Supplier) will be created.",
+   "fieldname": "creditors_parent_account",
+   "fieldtype": "Link",
+   "label": "Creditors Parent Account",
+   "mandatory_depends_on": "eval: doc.auto_create_supplier_credit_accounts",
+   "options": "Account"
+  },
+  {
+   "fieldname": "section_break_wbyy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vmec",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-10-14 10:24:17.397102",
+ "modified": "2025-05-16 08:53:26.854014",
  "modified_by": "Administrator",
  "module": "Edevis",
  "name": "Edevis Settings",
@@ -57,6 +85,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
