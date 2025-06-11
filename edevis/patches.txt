@@ -22,3 +22,4 @@ edevis.patches.v1_1.remove_not_requried_roles
 edevis.patches.v1_1.vat_id_customer_set
 edevis.patches.v1_1.vat_id_fetch_validation
 edevis.patches.v1_1.delete_tax_id
+edevis.patches.v1_1.update_translation
