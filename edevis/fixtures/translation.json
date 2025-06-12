@@ -6264,5 +6264,18 @@
   "name": "86674ggpmv",
   "source_text": "Suppl. Customer Ref.",
   "translated_text": "Lief.-Kunden Nr."
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-05-26 12:48:23.329891",
+  "name": "hd91k971p9",
+  "source_text": "Edevis Booking",
+  "translated_text": "Buchungsliste"
  }
 ]
