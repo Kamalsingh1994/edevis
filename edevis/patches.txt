@@ -23,3 +23,4 @@ edevis.patches.v1_1.vat_id_customer_set
 edevis.patches.v1_1.vat_id_fetch_validation
 edevis.patches.v1_1.delete_tax_id
 edevis.patches.v1_1.update_translation
+edevis.patches.v1_1.update_actual_tax_description
