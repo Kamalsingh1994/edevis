@@ -6290,5 +6290,22 @@
   "name": "4og9mk42sp",
   "source_text": "Ref. Code",
   "translated_text": "Kundenartikel"
+  "modified": "2025-07-14 07:53:10.182255",
+  "name": "45ttd80p65",
+  "source_text": "Applicable for Items",
+  "translated_text": "Betrifft"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-04-11 12:39:01.616856",
+  "name": "neiuqhogcs",
+  "source_text": "Versandkosten",
+  "translated_text": "Shipping charges"
  }
 ]
