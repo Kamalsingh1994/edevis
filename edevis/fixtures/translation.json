@@ -6277,5 +6277,18 @@
   "name": "hd91k971p9",
   "source_text": "Edevis Booking",
   "translated_text": "Buchungsliste"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-08-18 10:46:29.604206",
+  "name": "4og9mk42sp",
+  "source_text": "Ref. Code",
+  "translated_text": "Kundenartikel"
  }
 ]
