@@ -6303,5 +6303,18 @@
   "name": "neiuqhogcs",
   "source_text": "Versandkosten",
   "translated_text": "Shipping charges"
- }
+ },
+ {
+    "context": null,
+    "contributed": 0,
+    "contribution_docname": null,
+    "contribution_status": "",
+    "docstatus": 0,
+    "doctype": "Translation",
+    "language": "de",
+    "modified": "2025-09-01 12:52:54.450516",
+    "name": "ji07efk669",
+    "source_text": "Applicable for Items",
+    "translated_text": "Gilt für Artikel"
+   }
 ]
