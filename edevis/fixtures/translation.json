@@ -6277,5 +6277,44 @@
   "name": "hd91k971p9",
   "source_text": "Edevis Booking",
   "translated_text": "Buchungsliste"
- }
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-08-18 10:46:29.604206",
+  "name": "4og9mk42sp",
+  "source_text": "Ref. Code",
+  "translated_text": "Kundenartikel"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-04-11 12:39:01.616856",
+  "name": "neiuqhogcs",
+  "source_text": "Versandkosten",
+  "translated_text": "Shipping charges"
+ },
+ {
+    "context": null,
+    "contributed": 0,
+    "contribution_docname": null,
+    "contribution_status": "",
+    "docstatus": 0,
+    "doctype": "Translation",
+    "language": "de",
+    "modified": "2025-09-01 12:52:54.450516",
+    "name": "ji07efk669",
+    "source_text": "Applicable for Items",
+    "translated_text": "Gilt für Artikel"
+   }
 ]

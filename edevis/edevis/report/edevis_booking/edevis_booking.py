@@ -55,7 +55,7 @@ def get_columns():
 def get_data(filters):
     conditions = get_conditions(filters)
 
-    return frappe.db.sql(
+    raw_data = frappe.db.sql(
         f"""
         SELECT 
             si.posting_date,
@@ -78,6 +78,15 @@ def get_data(filters):
         filters,
         as_dict=True
     )
+
+    for row in raw_data:
+        if row.get("debit_to"):
+            row["debit_to"] = row["debit_to"].split(" - ")[0]
+        if row.get("income_account"):
+            row["income_account"] = row["income_account"].split(" - ")[0]
+
+    return raw_data
+
 
 
 def get_conditions(filters):
