@@ -165,8 +165,10 @@ doc_events = {
     },
     "Supplier": {
         "after_insert": "edevis.custom_scripts.custom_python.supplier.after_insert"
+    },
+    "Serial No": {
+        "autoname": "edevis.custom_scripts.custom_python.serial_no.update_serial_no"
     }
-
 }
 
 fixtures = [
@@ -363,3 +365,7 @@ jinja = {
     ]
 }
 
+# Override print settings to use document field values as defaults
+override_whitelisted_methods = {
+    "frappe.printing.page.print.print.get_print_settings_to_show": "edevis.custom_scripts.custom_python.print_settings_override.get_print_settings_to_show"
+}
